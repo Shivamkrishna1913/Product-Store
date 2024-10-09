@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 const corsOptions = {
-  origin: "http://localhost:5173/",
+  origin: "https://product-store-backend-fuel.onrender.com/",
 };
 
 app.use(cors(corsOptions));
