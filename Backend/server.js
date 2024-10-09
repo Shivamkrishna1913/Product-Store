@@ -10,11 +10,6 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors());
-const corsOptions = {
-  origin: "https://product-store-backend-fuel.onrender.com/",
-};
-
-app.use(cors(corsOptions));
 
 const PORT = process.env.PORT || 5000;
 
